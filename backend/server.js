@@ -8,12 +8,72 @@ const nodemailer = require('nodemailer');
 const helmet = require('helmet'); // Added for security
 const rateLimit = require('express-rate-limit'); // Added for rate limiting
 
-const app = express();
-const port = process.env.PORT || 3001;
+
 
 // Security Middleware
 app.use(helmet()); // Helps secure Express apps by setting various HTTP headers
 
+
+// Add more robust error handling
+require('dotenv').config();
+const express = require('express');
+const cors = require('cors');
+const jsonServer = require('json-server');
+const fs = require('fs');
+
+const app = express();
+const port = process.env.PORT || 3001;
+
+// Comprehensive CORS configuration
+
+
+// Middleware
+app.use(express.json({ limit: '10kb' }));
+app.use(express.urlencoded({ extended: true }));
+
+// Logging Middleware
+app.use((req, res, next) => {
+  console.log(`[${new Date().toISOString()}] ${req.method} ${req.url}`);
+  next();
+});
+
+// Basic route to verify server is working
+app.get('/', (req, res) => {
+  res.status(200).json({ 
+    message: 'Backend is running successfully',
+    timestamp: new Date().toISOString()
+  });
+});
+
+
+
+// Comprehensive Error Handling
+app.use((err, req, res, next) => {
+  console.error('Unhandled Error:', err);
+  
+  res.status(500).json({
+    status: 'error',
+    message: process.env.NODE_ENV === 'production' 
+      ? 'An unexpected error occurred' 
+      : err.message,
+    stack: process.env.NODE_ENV === 'development' ? err.stack : undefined
+  });
+});
+
+// 404 Handler
+app.use((req, res) => {
+  res.status(404).json({ 
+    message: 'Route Not Found',
+    requestedUrl: req.url
+  });
+});
+
+// Start the server
+app.listen(port, '0.0.0.0', () => {
+  console.log(`Server running on port ${port}`);
+});
+
+module.exports = app; // For Vercel serverless functions
 // Rate Limiting
 const limiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes
