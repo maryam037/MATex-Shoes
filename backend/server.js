@@ -146,3 +146,5 @@ app.use('/api', router);
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
+// Add this at the end of server.js
+module.exports = app;  // Export the app for Vercel
