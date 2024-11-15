@@ -11,5 +11,8 @@
       "src": "/(.*)",
       "dest": "/index.html"
     }
-  ]
+  ],
+  "env": {
+    "VITE_API_URL": "https://matexstorebe.vercel.app"
+  }
 }

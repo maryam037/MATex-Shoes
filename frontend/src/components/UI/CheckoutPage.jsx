@@ -34,7 +34,9 @@ const CheckoutPage = ({ cart, onClose, removeFromCart, onViewProduct, markProduc
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
+    const BASE_URL = import.meta.env.VITE_API_URL || 'https://your-backend-vercel-url.vercel.app/api';
 
+   
     try {
       console.log('Submitting order...'); // Debug log
 

@@ -92,15 +92,22 @@ app.use(express.urlencoded({ extended: true }));
 
 // CORS Configuration
 const allowedOrigins = [
-  'https://matexstore.vercel.app',
+  'https://matexstore.vercel.app/',
   'http://localhost:5173', // Local development
   'http://localhost:4173'  // Local preview
 ];
 
 const corsOptions = {
   origin: function (origin, callback) {
-    // Be more permissive in production
-    callback(null, true);
+    const allowedOrigins = [
+      'https://matexstore.vercel.app/',
+      'http://localhost:5173'
+    ];
+    if (!origin || allowedOrigins.indexOf(origin) !== -1) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
   },
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization'],
@@ -108,7 +115,6 @@ const corsOptions = {
 };
 
 app.use(cors(corsOptions));
-
 // Nodemailer Configuration
 const transporter = nodemailer.createTransport({
   service: 'gmail',
@@ -267,3 +273,9 @@ app.use((req, res) => {
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
 });
+module.exports = app;
+
+// For Vercel serverless function
+export default (req, res) => {
+  return app(req, res);
+};
