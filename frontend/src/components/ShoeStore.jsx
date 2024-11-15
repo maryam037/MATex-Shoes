@@ -66,7 +66,7 @@ const markProductsAsSold = (cartItems) => {
 };
   useEffect(() => {
     
-    const BASE_URL = import.meta.env.VITE_API_URL || 'https://matexstorebe.vercel.app/api';
+    const BASE_URL = import.meta.env.VITE_API_URL || 'https://matexstorebe.vercel.app';
 
     
     // Example in fetch calls

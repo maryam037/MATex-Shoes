@@ -92,7 +92,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // CORS Configuration
 const allowedOrigins = [
-  'https://matexstore.vercel.app/',
+  'https://matexstore.vercel.app',
   'http://localhost:5173', // Local development
   'http://localhost:4173'  // Local preview
 ];
@@ -100,7 +100,7 @@ const allowedOrigins = [
 const corsOptions = {
   origin: function (origin, callback) {
     const allowedOrigins = [
-      'https://matexstore.vercel.app/',
+      'https://matexstore.vercel.app',
       'http://localhost:5173'
     ];
     if (!origin || allowedOrigins.indexOf(origin) !== -1) {
