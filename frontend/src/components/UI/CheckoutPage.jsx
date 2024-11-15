@@ -48,7 +48,7 @@ const CheckoutPage = ({ cart, onClose, removeFromCart, onViewProduct, markProduc
         }))
       };
 
-      const response = await fetch('http://localhost:3001/api/place-order', {
+      const response = await fetch(`${BASE_URL}/place-order`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

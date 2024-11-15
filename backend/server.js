@@ -9,8 +9,14 @@ const app = express();
 const port = 3001;
 
 // Middleware
-app.use(cors());
+
 app.use(express.json());
+
+app.use(cors({
+  origin: 'https://matexstore.vercel.app', // Your frontend Vercel URL
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  allowedHeaders: ['Content-Type', 'Authorization']
+}));
 
 // Configure nodemailer
 const transporter = nodemailer.createTransport({
@@ -27,6 +33,34 @@ transporter.verify(function(error, success) {
   } else {
     console.log('Server is ready to send emails');
   }
+});
+// In backend server.js
+require('dotenv').config();
+
+const corsOptions = {
+  origin: function (origin, callback) {
+    const allowedOrigins = [
+      'https://matexstore.vercel.app',
+      'http://localhost:5173' // For local development
+    ];
+    if (!origin || allowedOrigins.indexOf(origin) !== -1) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  allowedHeaders: ['Content-Type', 'Authorization']
+};
+
+app.use(cors(corsOptions));
+// Add global error handler
+app.use((err, req, res, next) => {
+  console.error(err.stack);
+  res.status(500).json({
+    message: 'Something went wrong!',
+    error: process.env.NODE_ENV === 'production' ? {} : err.stack
+  });
 });
 
 app.post('/api/place-order', async (req, res) => {

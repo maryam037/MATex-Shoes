@@ -65,9 +65,13 @@ const markProductsAsSold = (cartItems) => {
   setCart([]); // Clear the cart
 };
   useEffect(() => {
+    
+    const BASE_URL = 'https://matexstorebe.vercel.app/api';
+
+    // Example in fetch calls
     const fetchShoes = async () => {
       try {
-        const response = await fetch('http://localhost:3001/api/shoes');
+        const response = await fetch(`${BASE_URL}/shoes`);
         if (!response.ok) {
           throw new Error('Failed to fetch shoes');
         }
