@@ -1,0 +1,894 @@
+{
+  "shoes": [
+    {
+      "id": 1,
+      "name": "Black Long Boots",
+      "brand": "White stag",
+      "price": 3500,
+      "sizes": [
+        7.5
+      ],
+      "color": "Black",
+      "category": "winters",
+      "description": "100% Faux Suede | Imported | Synthetic material | 8/10 Condition",
+      "image": "/src/assets/longb1.jpg",
+      "additionalImages": [
+        "/src/assets/longb2.jpg",
+        "/src/assets/longb3.jpg"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": 2,
+      "name": "Black Sandals with Studs",
+      "brand": "Merry Scott",
+      "price": 1500,
+      "sizes": [
+        38
+      ],
+      "color": "Black",
+      "category": "summers",
+      "description": " Imported | 6/10 Condition",
+      "image": "/src/assets/sandals1.jpg",
+      "additionalImages": [
+        "/src/assets/sandals2.jpg",
+        "/src/assets/sandals3.jpg"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": 3,
+      "name": "Chained High Sole Women's Loafer",
+      "brand": "ECS",
+      "price": 3500,
+      "sizes": [
+        38
+      ],
+      "color": "Gray/Green",
+      "category": "all seasons",
+      "description": "New Shoes with Box | 10/10 Condition",
+      "image": "/src/assets/green1.jpg",
+      "additionalImages": [
+        "/src/assets/green2.jpg",
+        "/src/assets/green3.jpg"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": 4,
+      "name": "Sneakers",
+      "brand": "Unknown",
+      "price": 500,
+      "sizes": [
+        39
+      ],
+      "color": "Sky Blue",
+      "category": "all seasons",
+      "description": "Sneakers| 5/10 Condition",
+      "image": "/src/assets/bluesneaker1.jpg",
+      "additionalImages": [
+        "/src/assets/bluesneaker2.jpg",
+        "/src/assets/bluesneaker3.jpg"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": 5,
+      "name": "Beige Sneakers",
+      "brand": "Turkish Brand",
+      "price": 1500,
+      "sizes": [
+        39
+      ],
+      "color": "Beige/Golden/Brown",
+      "category": "all seasons",
+      "description": "Sneakers | 8/10 Condition",
+      "image": "/src/assets/gold.jpg",
+      "additionalImages": [
+        "/src/assets/gold2.jpg",
+        "/src/assets/gold3.jpg"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": 6,
+      "name": "High Top Converse Chuck Taylor",
+      "brand": "Converse",
+      "price": 2500,
+      "sizes": [
+        38
+      ],
+      "color": "Purple/Red Rust",
+      "category": "all seasons",
+      "description": "Check pattern inside | 9/10 Condition",
+      "image": "/src/assets/purple1.jpg",
+      "additionalImages": [
+        "/src/assets/purple2.jpg",
+        "/src/assets/purple3.jpg"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": 7,
+      "name": "White Sneakers",
+      "brand": "Pull and Bear",
+      "price": 1000,
+      "sizes": [
+        38
+      ],
+      "color": "White",
+      "category": "all seasons",
+      "description": "Will be shipped after a wash | 7/10 Condition",
+      "image": "/src/assets/white1.jpg",
+      "additionalImages": [
+        "/src/assets/white2.jpg",
+        "/src/assets/white3.jpg"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": 8,
+      "name": "Chunky Boots",
+      "brand": "Outfitters",
+      "price": 3500,
+      "sizes": [
+        39
+      ],
+      "color": "Black",
+      "category": "winters",
+      "description": "Black shiny leather | High quality | 9.5/10 Condition",
+      "image": "/src/assets/boots1.jpg",
+      "additionalImages": [
+        "/src/assets/boots2.jpg"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": 9,
+      "name": "Formal Penny Loafers",
+      "brand": "Unknown",
+      "price": 2500,
+      "sizes": [
+        39
+      ],
+      "color": "Black",
+      "category": "all seasons",
+      "description": "Black neat leather | High quality | 9/10 Condition",
+      "image": "/src/assets/black1.jpg",
+      "additionalImages": [
+        "/src/assets/black2.jpg"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": 10,
+      "name": "Formal Penny Loafers",
+      "brand": "ECCO",
+      "price": 2500,
+      "sizes": [
+        38
+      ],
+      "color": "Brown",
+      "category": "all seasons",
+      "description": "Brown shiny leather | High quality | 9/10 Condition",
+      "image": "/src/assets/brown1.jpg",
+      "additionalImages": [
+        "/src/assets/brown2.jpg"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": 11,
+      "name": "Sky Blue Loafers",
+      "brand": "Aerosoles",
+      "price": 800,
+      "sizes": [
+        7
+      ],
+      "color": "Sky Blue",
+      "category": "all seasons",
+      "description": "Suede | High comfort | 7/10 Condition",
+      "image": "/src/assets/blue1.jpg",
+      "additionalImages": [
+        "/src/assets/blue2.jpg"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": 12,
+      "name": "Vans Sk8-Hi Sneakers Original",
+      "brand": "Vans",
+      "price": 4000,
+      "sizes": [
+        38
+      ],
+      "color": "White",
+      "category": "all seasons",
+      "description": "Original | Light stains | 8/10 Condition",
+      "image": "/src/assets/vans1.jpg",
+      "additionalImages": [
+        "/src/assets/vans2.jpg"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": 13,
+      "name": "Nike Court Borough Mid 2 Original",
+      "brand": "Nike",
+      "price": 4000,
+      "sizes": [
+        37.5
+      ],
+      "color": "White",
+      "category": "winters",
+      "description": "Original | Light stains | 8/10 Condition",
+      "image": "/src/assets/nike1.jpg",
+      "additionalImages": [
+        "/src/assets/nike2.jpg",
+        "/src/assets/nike3.jpg"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": 14,
+      "name": "LC Waikiki Leather Long Boots Original",
+      "brand": "LC Waikiki",
+      "price": 6000,
+      "sizes": [
+        39
+      ],
+      "color": "Black",
+      "category": "winters",
+      "description": "Original | 100% Comfort | Winters snow proof, strong Grip | 9/10 Condition",
+      "image": "/src/assets/blackboots1.jpg",
+      "additionalImages": [
+        "/src/assets/blackboots2.jpg",
+        "/src/assets/blackboots3.jpg"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": 15,
+      "name": "Suede Long Boots Original",
+      "brand": "Decathlon Turkey",
+      "price": 6000,
+      "sizes": [
+        38
+      ],
+      "color": "Brown",
+      "category": "winters",
+      "description": "Original Suede | 100% Comfort | Strong Grip | 9/10 Condition",
+      "image": "/src/assets/brownboots1.jpg",
+      "additionalImages": [
+        "/src/assets/brownboots2.jpg",
+        "/src/assets/brownboots3.jpg"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": 16,
+      "name": "Formal Heels",
+      "brand": "ECS",
+      "price": 800,
+      "sizes": [
+        37
+      ],
+      "color": "Grey/Black",
+      "category": "formal",
+      "description": "100% Comfort | Small heels | 9/10 Condition",
+      "image": "/src/assets/greyheels 1.jpg",
+      "additionalImages": [
+        "/src/assets/greyheels 2.jpg"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": 17,
+      "name": "Formal Heels",
+      "brand": "Borjan",
+      "price": 2500,
+      "sizes": [
+        37
+      ],
+      "color": "Black",
+      "category": "formal",
+      "description": "Black shiny high quality leather | High heels | 9/10 Condition",
+      "image": "/src/assets/blackheels 1.jpg",
+      "additionalImages": [
+        "/src/assets/blackheels 2.jpg"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": 18,
+      "name": "Black Elegant sandals",
+      "brand": "Insignia",
+      "price": 1500,
+      "sizes": [
+        37
+      ],
+      "color": "Black/Golden",
+      "category": "summers",
+      "description": "Black high quality leather | heels | 9/10 Condition",
+      "image": "/src/assets/goldsole1.jpg",
+      "additionalImages": [
+        "/src/assets/goldsole2.jpg",
+        "/src/assets/goldsole3.jpg"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": 19,
+      "name": "Formal bow Heels",
+      "brand": "Sam and Libby",
+      "price": 2000,
+      "sizes": [
+        7
+      ],
+      "color": "Light purple",
+      "category": "summers",
+      "description": "High quality leather | Block heels | 9.5/10 Condition",
+      "image": "/src/assets/lpurple1.jpg",
+      "additionalImages": [
+        "/src/assets/lpurple2.jpg"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": 20,
+      "name": "Brand New Zebra Pattern Heels",
+      "brand": "Black beiger",
+      "price": 2000,
+      "sizes": [
+        38
+      ],
+      "color": "Black/white",
+      "category": "summers",
+      "description": "Brand New Zebra Pattern | Comfortable heels | 10/10 Condition",
+      "image": "/src/assets/zebra1.jpg",
+      "additionalImages": [
+        "/src/assets/zebra2.jpg",
+        "/src/assets/zebra3.jpg",
+        "/src/assets/zebra4.jpg"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": 21,
+      "name": "Brand New Formal Heels",
+      "brand": "Style Mates",
+      "price": 3000,
+      "sizes": [
+        38
+      ],
+      "color": "Green/Leaf green",
+      "category": "formal",
+      "description": " Brand New | Formal heels | 10/10 Condition",
+      "image": "/src/assets/greenh1.jpg",
+      "additionalImages": [
+        "/src/assets/greenh2.jpg",
+        "/src/assets/greenh3.jpg"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": 22,
+      "name": "Golden Chained Heels",
+      "brand": "Insignia",
+      "price": 3000,
+      "sizes": [
+        38
+      ],
+      "color": "Black/Golden",
+      "category": "summers",
+      "description": " Comfortable Sole | Small Block heels | 9/10 Condition",
+      "image": "/src/assets/chaing1.jpg",
+      "additionalImages": [
+        "/src/assets/chaing2.jpg",
+        "/src/assets/chaing3.jpg"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": 23,
+      "name": "Charles and Keith Silver New Heels",
+      "brand": "Charles and Keith",
+      "price": 15000,
+      "sizes": [
+        37
+      ],
+      "color": "Shiny Silver/Metallic",
+      "category": "formal",
+      "description": " Brand New | Formal heels | 10/10 Condition",
+      "image": "/src/assets/CK1.jpg",
+      "additionalImages": [
+        "/src/assets/CK2.jpg",
+        "/src/assets/CK3.jpg"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": 24,
+      "name": "Wedding Golden Formal Heels",
+      "brand": "ECS",
+      "price": 3000,
+      "sizes": [
+        38
+      ],
+      "color": "Beige/Golden",
+      "category": "formal",
+      "description": " Glitter Wedding Formal heels | 9/10 Condition",
+      "image": "/src/assets/shiny1.jpg",
+      "additionalImages": [
+        "/src/assets/shiny2.jpg",
+        "/src/assets/shiny3.jpg"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": 25,
+      "name": "Madeline Women Leather shoes",
+      "brand": "Madeline",
+      "price": 2000,
+      "sizes": [
+        7
+      ],
+      "color": "Brown",
+      "category": "all seasons",
+      "description": " 100% Orignal Leather |  | 9/10 Condition",
+      "image": "/src/assets/brownleather1.jpg",
+      "additionalImages": [
+        "/src/assets/brownleather2.jpg"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": 26,
+      "name": "Formal Leather Coat shoes",
+      "brand": "Made in Turkey",
+      "price": 2500,
+      "sizes": [
+        38
+      ],
+      "color": "Tea pink",
+      "category": "formal",
+      "description": " Turkish Heels | Imported | 9.5/10 Condition",
+      "image": "/src/assets/teapink1.jpg",
+      "additionalImages": [
+        "/src/assets/teapink2.jpg",
+        "/src/assets/teapink3.jpg"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": 27,
+      "name": "Formal Golden heels",
+      "brand": "ECS",
+      "price": 2500,
+      "sizes": [
+        38
+      ],
+      "color": "Golden",
+      "category": "formal",
+      "description": " Wedding Pencil Heels | 9/10 Condition",
+      "image": "/src/assets/formalgoldh11.jpg",
+      "additionalImages": [
+        "/src/assets/formalgoldh12.jpg",
+        "/src/assets/formalgoldh13.jpg"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": 28,
+      "name": "Formal Golden heels",
+      "brand": "Insignia",
+      "price": 3000,
+      "sizes": [
+        38
+      ],
+      "color": "Golden",
+      "category": "formal",
+      "description": " Wedding Block Heels | 9/10 Condition",
+      "image": "/src/assets/goldenh21.jpg",
+      "additionalImages": [
+        "/src/assets/goldenh22.jpg",
+        "/src/assets/goldenh23.jpg"
+      ],
+      "isSoldOut": true
+    },
+    {
+      "id": 29,
+      "name": "Coat shoes",
+      "brand": "TJ MAXX",
+      "price": 1500,
+      "sizes": [
+        8
+      ],
+      "color": "Black",
+      "category": "all seasons",
+      "description": " Imported from USA | 8/10 Condition",
+      "image": "/src/assets/blacktjimax1.jpg",
+      "additionalImages": [
+        "/src/assets/blacktjimax2.jpg",
+        "/src/assets/blacktjimax3.jpg"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": 30,
+      "name": "Black Suede Coat shoes",
+      "brand": "Paprika",
+      "price": 3500,
+      "sizes": [
+        38
+      ],
+      "color": "Black",
+      "category": "winters",
+      "description": " Imported from Saudi Arabia | Medium Heels | 9.5/10 Condition",
+      "image": "/src/assets/blacksuede1.jpg",
+      "additionalImages": [
+        "/src/assets/blacksuede2.jpg",
+        "/src/assets/blacksuede3.jpg"
+      ],
+      "isSoldOut": true
+    },
+    {
+      "id": 31,
+      "name": "New Brown Suede Coat shoes",
+      "brand": "GraceLand Turkey",
+      "price": 4000,
+      "sizes": [
+        38
+      ],
+      "color": "Brown",
+      "category": "winters",
+      "description": " Brand New | Imported from Turkey | 10/10 Condition",
+      "image": "/src/assets/brownsuede1.jpg",
+      "additionalImages": [
+        "/src/assets/brownsuede2.jpg",
+        "/src/assets/brownsuede3.jpg"
+      ],
+      "isSoldOut": true
+    },
+    {
+      "id": 33,
+      "name": "Brown Coat shoes",
+      "brand": "Insginia-Brazillian Collection",
+      "price": 4000,
+      "sizes": [
+        38
+      ],
+      "color": "Brown",
+      "category": "formal",
+      "description": " Brand New | 100% Comfort | Medicated Shoes | 10/10 Condition",
+      "image": "/src/assets/brcoats1.jpg",
+      "additionalImages": [
+        "/src/assets/brcoats2.jpg",
+        "/src/assets/brcoats3.jpg"
+      ],
+      "isSoldOut": true
+    },
+    {
+      "id": 34,
+      "name": "Nude shade Coat shoes",
+      "brand": "Insginia-Brazillian Collection",
+      "price": 3000,
+      "sizes": [
+        37
+      ],
+      "color": "Nude/Skin",
+      "category": "formal",
+      "description": " Formal coat shoes | 100% Comfort | Medicated Shoes | 9/10 Condition",
+      "image": "/src/assets/nude1.jpg",
+      "additionalImages": [
+        "/src/assets/nude2.jpg",
+        "/src/assets/nude3.jpg"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": 35,
+      "name": "Maroon Chained shoes",
+      "brand": "Insginia",
+      "price": 3000,
+      "sizes": [
+        37
+      ],
+      "color": "Maroon",
+      "category": "all seasons",
+      "description": " Formal shoes | 100% Comfort | Medium heels | 9/10 Condition",
+      "image": "/src/assets/maroon1.jpg",
+      "additionalImages": [
+        "/src/assets/maroon2.jpg",
+        "/src/assets/maroon3.jpg"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": 36,
+      "name": "Formal copper shine heels",
+      "brand": "Black Beiger",
+      "price": 2000,
+      "sizes": [
+        38
+      ],
+      "color": "Copper/Golden",
+      "category": "formal",
+      "description": " Formal Transparent Medium heels| 10/10 Condition",
+      "image": "/src/assets/coppershine1.jpg",
+      "additionalImages": [
+        "/src/assets/coppershine2.jpg"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": 37,
+      "name": "Brown Suede Furr shoes",
+      "brand": "Almas",
+      "price": 3000,
+      "sizes": [
+        38
+      ],
+      "color": "Brown",
+      "category": "winters",
+      "description": " New Soft furr Orignal suede | 10/10 Condition",
+      "image": "/src/assets/furr1.jpg",
+      "additionalImages": [
+        "/src/assets/furr2.jpg",
+        "/src/assets/furr3.jpg"
+      ],
+      "isSoldOut": true
+    },
+    {
+      "id": 38,
+      "name": "Formal Gold Heels",
+      "brand": "Cherrie",
+      "price": 1500,
+      "sizes": [
+        38
+      ],
+      "color": "Dull gold",
+      "category": "formal",
+      "description": " Dull Gold Heels | 8/10 Condition",
+      "image": "/src/assets/cherrie1.jpg",
+      "additionalImages": [
+        "/src/assets/cherrie2.jpg",
+        "/src/assets/cherrie3.jpg"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": 39,
+      "name": "Charles and Keith Black leather strap heels",
+      "brand": "Charles and Keith",
+      "price": 10000,
+      "sizes": [
+        38
+      ],
+      "color": "Black",
+      "category": "formal",
+      "description": " Brand new with shoe box | Black Orignal Leather | 10/10 Condition",
+      "image": "/src/assets/CK11.jpg",
+      "additionalImages": [
+        "/src/assets/CK22.jpg"
+      ],
+      "isSoldOut": true
+    },
+    {
+      "id": 40,
+      "name": "Black Coat shoes",
+      "brand": "Unknown",
+      "price": 1000,
+      "sizes": [
+        8
+      ],
+      "color": "Black",
+      "category": "all seasons",
+      "description": " Black leather coat shoes | 7/10 Condition",
+      "image": "/src/assets/strapcoat1.jpg",
+      "additionalImages": [
+        "/src/assets/strapcoat2.jpg",
+        "/src/assets/strapcoat3.jpg"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": 41,
+      "name": "Black Bow shoes",
+      "brand": "Unknown",
+      "price": 1000,
+      "sizes": [
+        8
+      ],
+      "color": "Black",
+      "category": "winters",
+      "description": " Imported | Black Bow shoes | 7/10 Condition",
+      "image": "/src/assets/bow1.jpg",
+      "additionalImages": [
+        "/src/assets/bow2.jpg"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": 42,
+      "name": "Black Sandals",
+      "brand": "TAOS Spanish",
+      "price": 1500,
+      "sizes": [
+        38
+      ],
+      "color": "Black",
+      "category": "summers",
+      "description": " Black leather Sandals | 8/10 Condition",
+      "image": "/src/assets/bsandals1.jpg",
+      "additionalImages": [
+        "/src/assets/bsandals2.jpg"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": 43,
+      "name": "Orignal Addidas Boost shoes",
+      "brand": "Addidas",
+      "price": 7000,
+      "sizes": [
+        7.5
+      ],
+      "color": "Black",
+      "category": "all seasons",
+      "description": " Orignal Addidas Boost shoes | 9/10 Condition",
+      "image": "/src/assets/addidas1.jpg",
+      "additionalImages": [
+        "/src/assets/addidas2.jpg",
+        "/src/assets/addidas3.jpg"
+      ],
+      "isSoldOut": true
+    },
+    {
+      "id": 44,
+      "name": "Olive Green joggers without laces",
+      "brand": "Unknown",
+      "price": 1000,
+      "sizes": [
+        39
+      ],
+      "color": "Olive green",
+      "category": "all seasons",
+      "description": " Olive Green joggers without laces | 8/10 Condition",
+      "image": "/src/assets/olive1.jpg",
+      "additionalImages": [
+        "/src/assets/olive2.jpg"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": 45,
+      "name": "New Formal Silver Stones flat chappal",
+      "brand": "Almas",
+      "price": 2000,
+      "sizes": [
+        37
+      ],
+      "color": "Silver",
+      "category": "formal",
+      "description": " Formal Silver Stones flat chappal | 10/10 Condition",
+      "image": "/src/assets/diamond1.jpg",
+      "additionalImages": [
+        "/src/assets/diamond2.jpg"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": 46,
+      "name": "Zara Basic Maroon Shiny Shoes ",
+      "brand": "Zara",
+      "price": 2500,
+      "sizes": [
+        37
+      ],
+      "color": "Maroon",
+      "category": "all seasons",
+      "description": " Imported | Zara Basic Maroon Shiny Shoes | 8/10 Condition",
+      "image": "/src/assets/zara1.jpg",
+      "additionalImages": [
+        "/src/assets/zara2.jpg",
+        "/src/assets/zara3.jpg"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": 47,
+      "name": "Navy Blue Insignia Coat Shoes ",
+      "brand": "Insignia",
+      "price": 3000,
+      "sizes": [
+        37
+      ],
+      "color": "Navy Blue",
+      "category": "all seasons",
+      "description": " Navy Blue Insignia Coat Shoes | 9/10 Condition",
+      "image": "/src/assets/navy1.jpg",
+      "additionalImages": [
+        "/src/assets/navy2.jpg",
+        "/src/assets/navy3.jpg"
+      ],
+      "isSoldOut": true
+    },
+    {
+      "id": 48,
+      "name": "Colorful Insignia Sandals ",
+      "brand": "Insignia",
+      "price": 1500,
+      "sizes": [
+        38
+      ],
+      "color": "Black/Mustard/Maroon/Off-White",
+      "category": "summers",
+      "description": " Colorful Insignia Sandals | 8/10 Condition",
+      "image": "/src/assets/colors1.jpg",
+      "additionalImages": [
+        "/src/assets/colors2.jpg"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": 49,
+      "name": "4 IN 1 Khussay Traditional ",
+      "brand": "Local",
+      "price": 2000,
+      "sizes": [
+        8
+      ],
+      "color": "Olive Green /Golden /Black /Cream /Off-White",
+      "category": "summers",
+      "description": " 100% Comfort | 4 in 1 Deal | Traditional Khussay | 9/10 Condition",
+      "image": "/src/assets/khussay1.jpg",
+      "additionalImages": [
+        "/src/assets/khussay2.jpg",
+        "/src/assets/khussay3.jpg",
+        "/src/assets/khussay4.jpg",
+        "/src/assets/khussay5.jpg"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": 50,
+      "name": " Brown Chappal With Golden Chain",
+      "brand": "Local",
+      "price": 2000,
+      "sizes": [
+        38
+      ],
+      "color": "Brown",
+      "category": "summers",
+      "description": " 100% Comfort and soft Velvet | 9/10 Condition",
+      "image": "/src/assets/brchain1.jpg",
+      "additionalImages": [
+        "/src/assets/brchain2.jpg",
+        "/src/assets/brchain3.jpg"
+      ],
+      "isSoldOut": true
+    },
+    {
+      "id": 51,
+      "name": " Traditional Handmade Multani Chappal",
+      "brand": "Local",
+      "price": 1000,
+      "sizes": [
+        38
+      ],
+      "color": "Multi color",
+      "category": "summers",
+      "description": " 100% Comfort | Handmade Multani Kheri | 8/10 Condition ",
+      "image": "/src/assets/multani1.jpg",
+      "additionalImages": [
+        "/src/assets/multani2.jpg",
+        "/src/assets/multani3.jpg"
+      ],
+      "isSoldOut": false
+    }
+  ],
+  "orders": [
+  
+  ]
+}
